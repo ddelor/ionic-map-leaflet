@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Sentier de Boisseuilh</name>
+  <description><![CDATA[]]></description>
+  <Style id="style6">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Sentier de Boisseuilh</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.146355,45.260796,0.000000
+        1.148919,45.262985,0.000000
+        1.151687,45.265320,0.000000
+        1.152288,45.266399,0.000000
+        1.153350,45.266953,0.000000
+        1.154455,45.267586,0.000000
+        1.156633,45.268818,0.000000
+        1.156504,45.269035,0.000000
+        1.157856,45.269638,0.000000
+        1.159068,45.270432,0.000000
+        1.159701,45.270916,0.000000
+        1.163220,45.274162,0.000000
+        1.165495,45.276306,0.000000
+        1.166997,45.278118,0.000000
+        1.168456,45.279476,0.000000
+        1.170387,45.281773,0.000000
+        1.171460,45.282524,0.000000
+        1.172533,45.282677,0.000000
+        1.174893,45.282890,0.000000
+        1.176610,45.282738,0.000000
+        1.179228,45.283161,0.000000
+        1.186309,45.286060,0.000000
+        1.188068,45.286602,0.000000
+        1.188433,45.287251,0.000000
+        1.187103,45.287735,0.000000
+        1.186416,45.287827,0.000000
+        1.185912,45.287857,0.000000
+        1.183434,45.287296,0.000000
+        1.181717,45.287510,0.000000
+        1.179872,45.287247,0.000000
+        1.179652,45.287224,0.000000
+        1.179110,45.287399,0.000000
+        1.178353,45.287670,0.000000
+        1.177806,45.287991,0.000000
+        1.177399,45.288189,0.000000
+        1.176884,45.288372,0.000000
+        1.176519,45.288261,0.000000
+        1.176079,45.287952,0.000000
+        1.175682,45.287609,0.000000
+        1.175569,45.287510,0.000000
+        1.175408,45.287434,0.000000
+        1.174647,45.287064,0.000000
+        1.174073,45.286789,0.000000
+        1.173434,45.286533,0.000000
+        1.172935,45.286350,0.000000
+        1.172217,45.286388,0.000000
+        1.171508,45.286407,0.000000
+        1.170747,45.286335,0.000000
+        1.170473,45.285969,0.000000
+        1.170232,45.285851,0.000000
+        1.169599,45.285767,0.000000
+        1.169277,45.285614,0.000000
+        1.169170,45.285542,0.000000
+        1.169100,45.285439,0.000000
+        1.168950,45.285194,0.000000
+        1.168655,45.284698,0.000000
+        1.168145,45.283745,0.000000
+        1.168059,45.283508,0.000000
+        1.168000,45.283260,0.000000
+        1.168000,45.283024,0.000000
+        1.167790,45.282791,0.000000
+        1.166525,45.281681,0.000000
+        1.165795,45.279991,0.000000
+        1.164207,45.278660,0.000000
+        1.163607,45.277092,0.000000
+        1.163735,45.275913,0.000000
+        1.163607,45.275280,0.000000
+        1.163049,45.274857,0.000000
+        1.161804,45.273830,0.000000
+        1.160688,45.272259,0.000000
+        1.160023,45.271233,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Départ de Hautefort</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>1.145239,45.260326,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Futaie de chênes</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>1.166353,45.277210,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sortie du sentier</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>1.188047,45.286594,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bourg de Boisseuilh</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>1.176889,45.288353,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tunnel</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>1.176653,45.282753,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Arrivée</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>1.148887,45.259815,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

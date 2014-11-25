@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+.angular-leaflet-map {
+    width: 100%;
+    height: 100%;
+}
+.red {
+    border-radius: 120px;
+    opacity: .75;
+    background-color: #FF0000;
+}
+
+.blue {
+    border-radius: 120px;
+    opacity: .75;
+    background-color: #0000FF;
+}
