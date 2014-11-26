@@ -32,6 +32,7 @@ angular.module('starter.controllers', [])
             zoom: 13
         },
         defaults: {
+            attributionControl : true,
             // MAP PAR DÉFAULT
             // tileLayer: "http://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png",
 
@@ -46,9 +47,9 @@ angular.module('starter.controllers', [])
             // tileLayer: "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png",
             // maxZoom: 14,
 
-            // tileLayerOptions: {
-            //     attribution: '<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
-            // },
+            tileLayerOptions: {
+                attribution: '<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox © OpenStreetMap</a>'
+            },
             scrollWheelZoom: false
         },
         layers: {
@@ -82,6 +83,12 @@ angular.module('starter.controllers', [])
         },
         markers: c1Markers
     });
+
+    $scope.$on('leafletDirectiveMarker.click', function(e, args) {
+        // Args will contain the marker name and other relevant information
+        console.log("Leaflet Click");
+    });
+
 }])
 
 .controller('FriendsCtrl', function($scope, Friends) {

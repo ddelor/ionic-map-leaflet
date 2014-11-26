@@ -1,8 +1,14 @@
 /* Empty. Add your own CSS if you like */
+.scroll {
+    width: 100%;
+    height: 100%;
+}
 .angular-leaflet-map {
     width: 100%;
     height: 100%;
 }
+/*.leaflet-popup { display: none; }*/
+.leaflet-label { z-index: 400 !important; }
 .red {
     border-radius: 120px;
     opacity: .75;
