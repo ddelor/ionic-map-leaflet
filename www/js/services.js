@@ -96,40 +96,89 @@ angular.module('starter.services', [])
 
   var c1Markers = {
             m1: {
-              message: 'Départ de Hautefort',
+              // message: 'Départ de Hautefort',
               lat: 45.260326,
               lng: 1.145239,
-              icon: icons.blue
+              icon: icons.blue,
+              focus: false,
+              draggable: false,
+              label: {
+                  message: 'Départ de Hautefort',
+                  options: {
+                      noHide: false,
+                      clickable: false
+                  }
+              }
             },
             m2: {
-              message: 'Futaie de chênes',
               lat: 45.277210,
               lng: 1.166353,
-              icon: icons.blue
+              icon: icons.blue,
+              focus: false,
+              draggable: false,
+              label: {
+                  message : 'Futaie de chênes',
+                  options: {
+                    noHide: false,
+                    clickable: false
+                  }
+              }
             },
             m3: {
-              message: 'Sortie du sentier',
               lat: 45.286594,
               lng: 1.188047,
-              icon: icons.blue
+              icon: icons.blue,
+              focus: false,
+              draggable: false,
+              label: {
+                  message: 'Sortie du sentier',
+                  options: {
+                    noHide: false,
+                    clickable: false
+                  }
+              }
             },
             m4: {
-              message: 'Bourg de Boisseuilh',
               lat: 45.288353,
               lng: 1.176889,
-              icon: icons.blue
+              icon: icons.blue,
+              focus: false,
+              draggable: false,
+              label: {
+                  message: 'Bourg de Boisseuilh',
+                  options: {
+                    noHide: false,
+                    clickable: false
+                  }
+              }
             },
             m5: {
-              message: 'Tunnel',
               lat: 45.282753,
               lng: 1.176653,
-              icon: icons.blue
+              icon: icons.blue,
+              focus: false,
+              draggable: false,
+              label: {
+                  message: 'Tunnel',
+                  options: {
+                    noHide: false,
+                    clickable: false
+                  }
+              }
             },
             m6: {
-              message: 'Arrivée',
               lat: 45.259815,
               lng: 1.148887,
-              icon: icons.blue
+              icon: icons.blue,
+              focus: false,
+              draggable: false,
+              label: {
+                  message: 'Arrivée',
+                  options: {
+                    noHide: false,
+                    clickable: false
+                  }
+              }
             }
           };
 
