@@ -38,7 +38,7 @@ angular.module('starter.controllers', [])
 
             // MAP MAPBOX TERRAIN
             // tileLayer: "http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}",
-            // tileLayer: "http://api.tiles.mapbox.com/v4/ddelor.kaiok6fg/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGRlbG9yIiwiYSI6Im1sT05tN1kifQ.cAKcZuGtXTbXiWkeJY8jJw#13/45.2792/1.1609",
+            tileLayer: "http://api.tiles.mapbox.com/v4/ddelor.kaiok6fg/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGRlbG9yIiwiYSI6Im1sT05tN1kifQ.cAKcZuGtXTbXiWkeJY8jJw#13/45.2792/1.1609",
 
             // MAP PHOTO SATELLITE
             // tileLayer: "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
@@ -52,14 +52,14 @@ angular.module('starter.controllers', [])
             },
             scrollWheelZoom: false
         },
-        layers: {
-            baselayers: {
-                map: {
-                    name: 'mapboxMap',
-                    type: 'xyz',
-                    url: 'http://api.tiles.mapbox.com/v4/ddelor.kaiok6fg/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGRlbG9yIiwiYSI6Im1sT05tN1kifQ.cAKcZuGtXTbXiWkeJY8jJw#13/45.2792/1.1609'
-                }
-            },
+        // layers: {
+        //     baselayers: {
+        //         map: {
+        //             name: 'mapboxMap',
+        //             type: 'xyz',
+        //             url: 'http://api.tiles.mapbox.com/v4/ddelor.kaiok6fg/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGRlbG9yIiwiYSI6Im1sT05tN1kifQ.cAKcZuGtXTbXiWkeJY8jJw#13/45.2792/1.1609'
+        //         }
+        //     },
             // overlays: {
             //     red: {
             //         type: 'group',
@@ -73,7 +73,7 @@ angular.module('starter.controllers', [])
             //         visible: false
             //     }
             // }
-        },
+        // },
         path: {
             c1: {
                 color: 'red',
@@ -84,9 +84,24 @@ angular.module('starter.controllers', [])
         markers: c1Markers
     });
 
+    // TESTS SUR LES EVENTS
+    $scope.$on('leafletDirectiveMap.load', function(e, args) {
+        console.log('map loaded');
+    //     console.log(e);
+    //     console.log(args);
+    });
+
+    // $scope.$on('leafletDirectiveMarker.popupopen', function(e, args) {
+    //     console.log("Leaflet Popup Open");
+    //     console.log(args);
+    // });
+
     $scope.$on('leafletDirectiveMarker.click', function(e, args) {
-        // Args will contain the marker name and other relevant information
-        console.log("Leaflet Click");
+    //     console.log(e);
+    //     console.log(args);
+        temp_marker = $scope.markers[args.markerName];
+        console.log(temp_marker);
+    //     args.leafletEvent.target.openPopup();
     });
 
 }])
