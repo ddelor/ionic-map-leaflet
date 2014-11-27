@@ -115,4 +115,15 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AccountCtrl', function($scope) {
+
+    console.log('AccountCtrl on');
+
+    $scope.mapCreated = function(map) {
+        console.log('map loaded');
+        $scope.map = map;
+    };
+
 });
+
+
+
